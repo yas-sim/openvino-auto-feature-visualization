@@ -1,7 +1,7 @@
 # OpenVINO "AUTO" plugin / Auto-batching feature behavior visualization tool  
 
 ## Description:  
-This is a set of test program to visualize the behavior of "AUTO" plugin device switching and auto-batching feature that is newly introduced from OpenVINO 2022.1 version.  
+This is a set of test programs to visualize the behavior of the "AUTO" plugin device switching and auto-batching feature that is newly introduced in the OpenVINO 2022.1 version.  
 
 * "AUTO" plugin - Web document is [here](https://docs.openvino.ai/latest/openvino_docs_OV_UG_supported_plugins_AUTO.html).  
 * Auto-batching feature - Web document is [here](https://docs.openvino.ai/latest/openvino_docs_OV_UG_Automatic_Batching.html)  
