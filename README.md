@@ -29,7 +29,9 @@ All configuration and setting parameters are hard coded in the source code. You 
 
 4. Run test program
 
-* Auto-batching visualization
+* Auto-batching visualization  
+This program submits asynchronous inference requests with specified interval. The program will draw the infer request submission timing on the upper row and the inference result returned timing on the lower row, connect request timing and result timing with the lines to visualize the relation of request-result timing on the frame.  
+
 ```sh
 python3 auto-test.py
 ```
@@ -37,7 +39,8 @@ python3 auto-test.py
 
 ![Auto Batch (Throughput Mode)](./resources/auto-batch-throughput-mode.png)
 
-* "AUTO" plugin device switching behavior visualization
+* "AUTO" plugin device switching behavior visualization  
+This program submits asynchronous infer requests with specified interval. Visualize the inference laency on a graph to visualize the inference latency fluctuation around "AUTO" plugin device switching event.  
 ```sh
 python3 auto-test-latency-graph.py
 ```
